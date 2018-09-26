@@ -1,22 +1,26 @@
 /* styling the about page */
 
 body{
-    background-image: url("assets/images/background_image.jpg");
     font-color: #777777;
     margin: 0;
+}
+
+.background_img{
     width: 100%;
     height: 100%;
+    background-image: url("../images/background_image.jpg");
+    background-size: cover;
 }
 
 header{
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     background: red;
     color: #4aaaa5;
-    /* width: 960px; */
+    width: 690px;
 }
 
 h1{
-    text-align: left;
+    /* text-align: left; */
 
 }
 
@@ -44,3 +48,9 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
+#my_pic{
+    transform: rotate(90deg);
+}
+
+.main_content{
+}
