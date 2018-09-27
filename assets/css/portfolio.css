@@ -1,4 +1,4 @@
-/* style contact information here */
+/* portfolio information */
 
 body {
     margin: 0;
@@ -45,7 +45,7 @@ li a:hover {
 .background_img {
     width: 100%;
     height: 100%;
-    background-image: url("../images/shattered.png");
+    background-image: url("../images/subtle_orange_emboss.png");
     background-size: cover;
 }
 
@@ -74,43 +74,27 @@ li a:hover {
     margin: 20px;
 }
 
-.form {
-    margin: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-
+#game_on,
+#business,
+#glasses,
+#surf,
+#time {
+    width: 200px;
+    height: 200px;
 }
 
-.name {
-    margin: 20px;
-    width: 900px;
-    padding: 8px;
-    border: gray solid 1px;
-    margin-left: initial;
+.g1 {
+    position: relative;
 }
 
-.email {
-    margin: 20px;
-    width: 900px;
-    padding: 8px;
-    border: gray solid 1px;
-    margin-left: initial;
-}
-
-.message {
-    margin: 20px;
-    width: 900px;
-    padding: 8px;
-    border: gray solid 1px;
-    margin-left: initial;
-    margin-bottom: 10px;
-    height: 150px;
-}
-
-.btn {
-    background: #4aaaa5;
+.text-block1 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
     color: white;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 160px;
 }
 
 .footer {
