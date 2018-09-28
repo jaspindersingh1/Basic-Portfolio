@@ -58,6 +58,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 20px;
+    margin-top: 180px;
 }
 
 .contact {
@@ -85,9 +86,71 @@ li a:hover {
 
 .g1 {
     position: relative;
+    margin: 20px;
+}
+
+.grid1 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
 }
 
 .text-block1 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 160px;
+}
+
+.text-block2 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 160px;
+}
+
+.grid2 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.text-block3 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 160px;
+}
+
+.text-block4 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 160px;
+}
+
+.grid3 {
+    display: block;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.text-block5 {
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
