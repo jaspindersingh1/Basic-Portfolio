@@ -1,7 +1,7 @@
 /* styling the about page */
 
 body{
-    margin: 0;
+    margin: 0 auto;
 }
 
 header{
@@ -61,13 +61,16 @@ li a:hover {
 
 .main_content{
     background-color: white;
-    border: solid;
+    /* border: solid; */
     /* margin: 100px; */
     width: 960px;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 #my_pic{
